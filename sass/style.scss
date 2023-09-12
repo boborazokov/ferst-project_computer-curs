@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main-screan{
+    background-image: url('../image/main-screen__bgc.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size:100%;
+}
+.logo{
+    img{
+        width: 40px;
+        height: 40px;
+        top: 20px;
+        left: 60px;
+        position: relative;
+    }
+ul{
+    top: 0px;
+}
+}
+.main-menu{
+    display: flex;
+    flex-direction:row;
+    align-items: baseline;
+    justify-content: space-around;
+    width: 745px;
+    height: 24px;
+    top: 28px;
+    left: 370px;
+    gap: 10px;
+    position: absolute;
+    li{
+        list-style-type:none;
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: center;
+
+        }
+    }
+}
+
+.main-screan_button{
+    width:183px;
+    height: 44px;
+    top: 20px;
+    left: 1250px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    gap: 10px;
+    position: absolute;
+    background:  #C89AFC;
+    button{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        background: inherit;
+        border: none;
+        
+    }
+
+
+}
+.main-screan_last-line{
+    
+    width: 100%;
+    height: 103px;
+    top: 560px;
+    position: relative;
+    background: #121212;
+    button{
+    position: relative;
+    width: Hug (169px);
+    height: Hug (44px);
+    top: 40px;
+    left: 150px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    gap: 10px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    }
+    h2{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 100px;
+        line-height: 24px;
+        color: #FFFFFF;
+
+    }
+}
+.main-screan_people{
+    width: 300px;
+    display:grid;
+    position: relative;
+    grid-template-columns: auto auto;
+    left: 350px;
+    h2:nth-child(1){
+        color: rgb(82, 80, 80);
+    }
+    h2:nth-child(3){
+        color: rgb(82, 80, 80);
+    }
+}
+.main-screan_money{
+    position: absolute;
+    top: 630px;
+    left: 690px;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 600px;
+    gap: 8px 0px;
+    .gaden {
+        position: relative;
+        width: 440px;
+        height: 6px;
+        background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+
+    }
+    h2{
+        color: #FFFFFF;
+    }
+    h2:nth-child(2){
+        margin-left: -150px;
+    }
+    h2:last-child{
+        margin-left: 90px;
+    }
+    .gaden2{
+        width: 214px;
+        height: 6px;
+        background: #FFFFFF;
+    }
+
+}
+.main-screan_data{
+    position: absolute;
+    width: 920px;
+    height: 180px;
+    top: 150px;
+    left: 112px;
+
+    h2{
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 90px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+}
+.main-screan_time{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 600px;
+    div{
+        padding: 10px 20px;
+        width: 100px;
+        background: #121212;
+        text-align: center;
+        h3{
+            font-family: Roboto;
+            font-size: 16px;
+            color: rgb(82, 80, 80);
+            line-height: 22px;
+        }
+        h2{
+            font-family: Roboto;
+            font-size: 36px;
+            line-height: 50px;
+            text-align: center;
+        }
+    }
+}
+body{
+    background-image: url('../image/bgc.png');
+}
+.about{
+    margin-top: 200px;
+    .Rectange{
+        width: 526px;
+        height: 499px;
+        top: 1160px;
+        left: 312px;
+        border: 30px;
+        background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+
+
+    }
+}
