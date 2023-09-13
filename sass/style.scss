@@ -204,7 +204,8 @@ body{
     }
 
     .text{
-        position: absolute;
+        position: flex;
+        justify-content: center;
         left: 750px;
         width: 600px;
         top: 150px;
