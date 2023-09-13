@@ -187,15 +187,31 @@ body {
 }
 
 .about {
-  margin-top: 200px;
+  position: relative;
+  top: 200px;
 }
-.about .Rectange {
-  width: 526px;
-  height: 499px;
-  top: 1160px;
-  left: 312px;
-  border: 30px;
-  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+.about .imgs {
+  position: absolute;
+  left: 100px;
+}
+.about .clon {
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+.about .text {
+  position: absolute;
+  left: 750px;
+  width: 600px;
+  top: 150px;
+}
+.about .text h2 {
+  font-size: 40px;
+}
+.about .text > h2, .about h5 {
+  color: #fff;
+  letter-spacing: 1px;
+  word-spacing: 3px;
 }
 
 /*# sourceMappingURL=style.css.map */
