@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  color: #FFFFFF;
 }
 
 .main-screan {
@@ -367,6 +368,75 @@ body {
   position: absolute;
   left: 500px;
   top: 3150px;
+}
+
+.program {
+  text-align: center;
+  margin-top: 200px;
+}
+.program h2 {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.program h5 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #696767;
+  margin-bottom: 20px;
+}
+
+.foto8 {
+  position: absolute;
+  left: 750px;
+}
+
+.foto1 {
+  position: absolute;
+  left: 380px;
+}
+
+.foto2 {
+  position: absolute;
+  left: 780px;
+  top: 4100px;
+}
+
+.foto3 {
+  position: absolute;
+  left: 380px;
+  top: 4200px;
+}
+
+.foto4 {
+  position: absolute;
+  left: 780px;
+  top: 4300px;
+}
+
+.foto5 {
+  position: absolute;
+  left: 380px;
+  top: 4400px;
+}
+
+.foto6 {
+  position: absolute;
+  left: 780px;
+  top: 4500px;
+}
+
+.foto7 {
+  position: absolute;
+  left: 380px;
+  top: 4600px;
 }
 
 /*# sourceMappingURL=style.css.map */
