@@ -495,3 +495,48 @@ h2{
         }
     }
 }
+footer{
+    margin-top: 200px;
+    text-align: center;
+    h2{
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 67px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    h5{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: center;
+        color:#696767 ;
+    }
+    h3{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: center;
+        
+
+    }
+    .email{
+        width: 353px;
+        height: 44px;
+        border-radius: 50px 0px 0px 50px;
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.358);
+        margin: 10px;
+
+    }
+    .photo9{
+        position: absolute;
+        top: 5556px;
+        left: 900px;
+    }
+}
