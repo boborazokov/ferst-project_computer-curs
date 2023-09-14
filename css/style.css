@@ -439,4 +439,59 @@ body {
   top: 4600px;
 }
 
+.teachers_header {
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 200px;
+  display: flex;
+}
+.teachers_header img {
+  width: 100px;
+  height: 50px;
+  margin-right: 50px;
+}
+
+.teachers {
+  margin-top: 800px;
+}
+
+.teachers_inf {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.teachers_inf img {
+  margin-left: 150px;
+}
+.teachers_inf div h4 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.teachers_inf div h6 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.teachers_inf div button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 1px;
+  gap: 10px;
+  border: 1px solid #FFFFFF;
+  background: inherit;
+  margin-left: 190px;
+  margin-top: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
